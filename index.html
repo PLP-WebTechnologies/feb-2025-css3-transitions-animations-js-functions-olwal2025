@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallant Hooves - Horse Selling Business</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Gallant Hooves</h1>
+    <p>Premium Horses for Sale</p>
+  </header>
+
+  <nav>
+    <button id="homeBtn">Home</button>
+    <button id="galleryBtn">Gallery</button>
+    <button id="contactBtn">Contact</button>
+  </nav>
+
+  <main id="main-content">
+    <!-- Default Home Content Section -->
+    <section id="home">
+      <h2>Welcome to Gallant Hooves</h2>
+      <p>We offer the finest breeds of horses trained and nurtured with love and professionalism.</p>
+    </section>
+
+    <section id="gallery" class="hidden">
+      <h2>Our Horses</h2>
+      <div class="gallery">
+        <!-- Slideshow added by JS -->
+      </div>
+    </section>
+
+    <section id="contact" class="hidden">
+      <h2>Contact Us</h2>
+      <form id="contactForm">
+        <label>Name:<input type="text" name="name" required /></label>
+        <label>Email:<input type="email" name="email" required /></label>
+        <label>Password:<input type="password" name="password" required minlength="8" /></label>
+        <button type="submit">Send</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Gallant Hooves. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
